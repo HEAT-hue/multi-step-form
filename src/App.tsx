@@ -18,7 +18,7 @@ export default function App() {
     })
   }
 
-  // Array of different form steps elements
+  // Array of different form steps components
   const formSections = [
     <UsernamesFormInput {...currentUserData} updateFields={updateFields} />,
     <UserlocationFormInput {...currentUserData} updateFields={updateFields} />,
